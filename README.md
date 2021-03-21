@@ -1,2 +1,2 @@
-[![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
+[![<ORG_NAME>](https://circleci.com/<Github>/<dOwOd>/<test-circleci>.svg?style=svg)](<https://app.circleci.com/pipelines/github/dOwOd/test-circleci>)
 # test-CircleCI
