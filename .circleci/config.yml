@@ -7,6 +7,6 @@ executors:
 jobs:
   build:
       # my-executorを利用
-    executor: my-executer
+    executor: my-executor
     steps:
       - run: echo Hello World
