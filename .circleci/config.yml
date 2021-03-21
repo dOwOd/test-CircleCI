@@ -1,12 +1,12 @@
 version: 2.1
 executors:
     # my-executorを定義
-    my-executer:
+    my-executor:
         docker:
           - image: cimg/ruby:2.7.1-node
 jobs:
   build:
       # my-executorを利用
-    executer: my-executer
+    executor: my-executer
     steps:
       - run: echo Hello World
