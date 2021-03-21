@@ -1,9 +1,12 @@
-version: 2
+version: 2.1
+executors:
+    # my-executorを定義
+    my-executer:
+        docker:
+          - image: cimg/ruby:2.7.1-node
 jobs:
   build:
-    docker:
-      - image: cimg/node:lts
+      # my-executorを利用
+    executer: my-executer
     steps:
-      - checkout
-      - run: yarn install
-      - run: yarn test 
+      - run: echo Hello World
